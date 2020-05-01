@@ -8,6 +8,7 @@ L298N::L298N(int en1, int p1, int p2, int en2, int p3, int p4){
   pinMode(en2, OUTPUT);
   pinMode(p3, OUTPUT);
   pinMode(p4, OUTPUT);
+  
   E1 = en1; P1 = p1; P2 = p2;
   E2 = en2; P3 = p3; P4 = p4;
 
